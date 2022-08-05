@@ -4,7 +4,7 @@ import store from '../redux/store';
 import { logoutUser } from '../redux/slices/user';
 
 const api = axios.create({
-  baseURL: 'http://localhost:5000'
+  baseURL: 'https://teppa-backend.herokuapp.com/'
 });
 
 api.interceptors.response.use(
