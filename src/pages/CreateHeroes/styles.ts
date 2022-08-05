@@ -1,4 +1,3 @@
-import CurrencyInput from 'react-currency-input-field';
 import styled, { css } from 'styled-components';
 import Modal from '../../components/CustomModal';
 
@@ -254,7 +253,7 @@ export const Option = styled.option`
   width: 150px;
 `;
 
-export const TcurrencyInput = styled(CurrencyInput)`
+export const TcurrencyInput = styled.input`
   background: #efefef;
   margin: 10px 0px;
   border-radius: 20px;
